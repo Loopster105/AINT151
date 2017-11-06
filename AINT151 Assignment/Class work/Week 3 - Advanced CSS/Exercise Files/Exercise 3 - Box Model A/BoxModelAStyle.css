@@ -1,0 +1,41 @@
+div {
+  margin: 0 auto;
+}
+#header {
+  text-align: center;
+  margin: 5px;
+  width: 900px;
+  height: 70px;
+  background-color: grey;
+}
+
+#leftmenu {
+  text-align: center;
+  float: left;
+  margin: 5px;
+  width: 295px;
+  height: 500px;
+  background-color: grey;
+}
+
+#maincontent {
+  float: left;
+  text-align: center;
+  margin: 5px;
+  width: 595px;
+  height: 500px;
+  background: grey;
+}
+
+#clear {
+  clear: right;
+}
+
+#footer {
+  float: left;
+  text-align: center;
+  margin: 5px;
+  width: 900px;
+  height: 30px;
+  background-color: grey;
+}
