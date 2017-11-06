@@ -1,9 +1,10 @@
-div {
+#container {
   margin: 0 auto;
+  width:900px;
 }
 #header {
   text-align: center;
-  margin: 5px;
+  margin-bottom: 10px;
   width: 900px;
   height: 70px;
   background-color: grey;
@@ -12,7 +13,6 @@ div {
 #leftmenu {
   text-align: center;
   float: left;
-  margin: 5px;
   width: 295px;
   height: 500px;
   background-color: grey;
@@ -21,7 +21,7 @@ div {
 #maincontent {
   float: left;
   text-align: center;
-  margin: 5px;
+  margin-left: 10px;
   width: 595px;
   height: 500px;
   background: grey;
@@ -34,7 +34,7 @@ div {
 #footer {
   float: left;
   text-align: center;
-  margin: 5px;
+  margin-top: 10px;
   width: 900px;
   height: 30px;
   background-color: grey;
