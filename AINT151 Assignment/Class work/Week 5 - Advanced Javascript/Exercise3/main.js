@@ -7,9 +7,12 @@ var roomObject = {
 
 function OnLoad()
 {
-	roomtitle = "title";
-	roomtext = "text"
-	for(var i = 0; i < roomObject.choices.length; i++) {
+		document.getElementById('roomtitle').innerHTML = roomObject.title;
+		document.getElementById('roomtext').innerHTML = roomObject.text;
+		for (var i = 0; i < roomObject.choices.length; i++){
 
+			var roomchoice = "<button type='button'>" + roomObject.choices[i] + "</button>";
+
+			document.getElementById('roomchoices').innerHTML += roomchoice;
 	}
 }
