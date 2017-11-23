@@ -1,3 +1,20 @@
+a:hover{
+  color: orange;
+}
+ul a:hover{
+  text-decoration: none;
+  color: red;
+}
+p:first-of-type{
+  display: none;
+}
+ div span{
+   background-color: grey;
+ }
+ div:hover p{
+   display: block;
+ }
+
 #menu
 {
 float: left;

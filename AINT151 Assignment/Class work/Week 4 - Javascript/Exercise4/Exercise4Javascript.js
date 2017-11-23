@@ -19,14 +19,30 @@ function CreatePlayer()
   document.getElementById("colour").style.backgroundColor = playerColour;
   document.getElementById("health").innerHTML = playerHealth;
 
-  if(playerWeapon == 1) {
-    playerWeapon = "Crossbow of much hurting";
-  }
-  else if (playerWeapon == 2) {
-      playerWeapon = "Broadsword of so slicing";
-  }
-  else {
-    playerWeapon = "Wand of amaze magics";
-  }
-  document.getElementById("weapon").innerHTML = playerWeapon;
+  //if(playerWeapon == 1) {
+  //  playerWeapon = "Crossbow of much hurting";
+//  }
+//  else if (playerWeapon == 2) {
+  //    playerWeapon = "Broadsword of so slicing";
+//  }
+  //else {
+  //  playerWeapon = "Wand of amaze magics";
+//  }
+  //document.getElementById("weapon").innerHTML = playerWeapon;
+
+  //Challange
+    switch (playerWeapon) {
+        case '1':
+            document.getElementById('weapon').innerHTML = "Crossbow of much hurting";
+            break;
+
+        case '2':
+            document.getElementById('weapon').innerHTML = "Broadsword of so slicing";
+            break;
+
+        default:
+            document.getElementById('weapon').innerHTML = "Wand of amaze magics";
+            break;
+
+    }
 }
