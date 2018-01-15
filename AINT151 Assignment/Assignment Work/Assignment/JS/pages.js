@@ -87,6 +87,7 @@ function Page11()
 {
   document.getElementById('Room').innerHTML="Test11"
   document.getElementById('description').innerHTML="A storage room, there is a lot of cleaning equipment at the back of the room and there are a few coats on the wall to the right of you. Out of the corner of your eye you catch a glint from one of the coats. You move closer to inspect the item it appears to be a key for a room somewhere. You put the key in one of the pouches attached to your shorts and Go to walk out the door you came in."
+  document.getElementById('equipment').innerHTML="Strange Key"
   document.getElementById('ButtonChoices').innerHTML="<button type=\"button\" class=\"btn btn-default\" onclick=\"Page13();\">Go through east door</button></br>"
 }
 
