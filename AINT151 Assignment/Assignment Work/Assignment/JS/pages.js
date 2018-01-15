@@ -208,7 +208,7 @@ function Page27()
   document.getElementById('description').innerHTML="You walk into the room and suddenly you remember everything all because you saw his face. He looks at you in amazement and beckons you closer but you don’t know what to do. You notice a door to the right of the room. Maybe you could run for the door? Or turn back and hope he doesn't catch you."
   document.getElementById('ButtonChoices').innerHTML="<button type=\"button\" class=\"btn btn-default\" onclick=\"Page28();\">Make a break for the door on the right</button>"
   document.getElementById('ButtonChoices').innerHTML="<button type=\"button\" class=\"btn btn-default\" onclick=\"Page31();\">Talk to the Devil King</button>"
-  document.getElementById('ButtonChoices').innerHTML="<button type=\"button\" class=\"btn btn-default\" onclick=\"Page33();\">Run and leave the way you came in</button>"
+  document.getElementById('ButtonChoices').innerHTML="<button type=\"button\" class=\"btn btn-default\" onclick=\"Page32();\">Run and leave the way you came in</button>"
 }
 
 function Page28()
