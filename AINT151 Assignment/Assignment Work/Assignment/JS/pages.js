@@ -181,6 +181,13 @@ function Page23()
   document.getElementById('ButtonChoices').innerHTML="<button type=\"button\" class=\"btn btn-default\" onclick=\"Page24();\">Libary</button>"
 }
 
+function Page24()
+{
+  document.getElementById('Room').innerHTML="Test 24"
+  document.getElementById('description').innerHTML="You walk into a room stacked with shelves of books. You carry on looking through the shelves but find nothing interesting yet at the same time you’re worried you could get lost due how the room is arranged until you find another doorway which carries you through the castle."
+  document.getElementById('ButtonChoices').innerHTML="<button type=\"button\" class=\"btn btn-default\" onclick=\"Page25();\">Kings Dining Room</button>"
+}
+
 function Page25()
 {
   document.getElementById('Room').innerHTML="Test25"
@@ -253,5 +260,5 @@ function Page34()
 {
   document.getElementById('Room').innerHTML="Killed the guard"
   document.getElementById('description').innerHTML="Whilst the guard is sleeping you quickly twist his neck and double check to make sure he won’t come after you from the grave and you move on through the door."
-  document.getElementById('ButtonChoices').innerHTML="<button type=\"button\" class=\"btn btn-default\" onclick=\"Page12();\">Outside Hallway</button>"
+  document.getElementById('ButtonChoices').innerHTML="<button type=\"button\" class=\"btn btn-default\" onclick=\"Page13();\">Outside Hallway</button>"
 }
