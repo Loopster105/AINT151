@@ -8,9 +8,10 @@ body {
   background: rgb(53, 5, 0);;
 }
 
-h1
+div
 {
   color: white;
+  font-family: Shlop;
 }
 
 h2
@@ -20,4 +21,5 @@ h2
 .para
 {
  color: white;
+ font-family: Shlop;
 }

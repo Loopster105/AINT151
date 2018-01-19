@@ -1,7 +1,6 @@
 function Page1()
 {
   document.getElementById('Room').innerHTML="Test"
-  document.getElementById('equipment').innerHTML="None"
   document.getElementById('treasure').innerHTML="$0"
   document.getElementById('description').innerHTML="You awake in an unfamiliar place. Not knowing who you are or where you've come from."
   document.getElementById('ButtonChoices').innerHTML="<button type=\"button\" class=\"btn btn-default\" onclick=\"Page2();\">Look around the room</button></br>"
@@ -10,7 +9,6 @@ function Page1()
 function Page2()
 {
   document.getElementById('Room').innerHTML="Test 2"
-  document.getElementById('equipment').innerHTML="None"
   document.getElementById('description').innerHTML="You look around the jail cell type room you are currently contained in. The air in the place feels like an oven, your mouth feels dry like a desert, there are scratches all over your arms and legs, yet your body doesn't feel weak. It feels warm and alive.  You have a ring on your finger glowing yellow but that’s the last of your worries. You notice the door is a bit loose but you can’t force it open with your hands. Maybe you could find something to force the door open?"
   document.getElementById('ButtonChoices').innerHTML="<button type=\"button\" class=\"btn btn-default\" onclick=\"Page3();\">Search the bed</button>"
   document.getElementById('ButtonChoices').innerHTML+="<button type=\"button\" class=\"btn btn-default\" onclick=\"Page4();\">Search the sink</button>"
@@ -77,9 +75,9 @@ function Page10()
 {
   document.getElementById('Room').innerHTML="Test10"
   document.getElementById('description').innerHTML="A guard is asleep in a nearby chair to your left. You also notice that there is a door right in front of you and to the left. Both of them appear to be unlocked so if you’re quiet enough then you should be able to get through the doors without waking the guard up."
-  document.getElementById('ButtonChoices').innerHTML="<button type=\"button\" class=\"btn btn-default\" onclick=\"Page11();\">Go through the north door</button></br>"
-  document.getElementById('ButtonChoices').innerHTML="<button type=\"button\" class=\"btn btn-default\" onclick=\"Page12();\">Inspect the guard</button></br>"
-  document.getElementById('ButtonChoices').innerHTML="<button type=\"button\" class=\"btn btn-default\" onclick=\"Page13();\">Go through the west door</button></br>"
+  document.getElementById('ButtonChoices').innerHTML="<button type=\"button\" class=\"btn btn-default\" onclick=\"Page11();\">Go through the north door</button>"
+  document.getElementById('ButtonChoices').innerHTML="<button type=\"button\" class=\"btn btn-default\" onclick=\"Page12();\">Inspect the guard/button>"
+  document.getElementById('ButtonChoices').innerHTML="<button type=\"button\" class=\"btn btn-default\" onclick=\"Page13();\">Go through west entrance</button></br>"
   document.getElementById('ButtonChoices').innerHTML="<button type=\"button\" class=\"btn btn-default\" onclick=\"Page34();\">Kill the guard</button></br>"
 }
 
